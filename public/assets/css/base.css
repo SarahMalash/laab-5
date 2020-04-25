@@ -24,6 +24,8 @@
     top: 0;
     width: 375px;
 }
+#Video {
+    	position: fixed;	z-index: -1;	top: 0px;	left: 5vw;	opacity: 40%;}
 
     #header .top {
         -moz-flex-grow: 1;
@@ -213,10 +215,10 @@
             background-position: center center;
         }
 
-        #main > section.one {
+        /* #main > section.one {
             background-color: #81918E;
             background-image: url("../../images/banner.jpg");
-        }
+        } */
 
         #main > section.two {
             background-color: #f5fafa;
